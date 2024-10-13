@@ -1,0 +1,10 @@
+POST localhost:8080/dishes/new
+Content-Type: application/json
+
+{
+  "name" : "Pork",
+  "protein" : 2,
+  "calorie" : 14,
+  "carbohydrate" : 10,
+  "fat" : 100
+}
