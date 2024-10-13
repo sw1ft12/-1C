@@ -1,10 +1,1 @@
-POST localhost:8080/dishes/new
-Content-Type: application/json
-
-{
-  "name" : "Cookie",
-  "protein" : 2,
-  "calorie" : 20,
-  "carbohydrate" : 10,
-  "fat" : 100
-}
+GET localhost:8080/dishes

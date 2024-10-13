@@ -75,7 +75,7 @@ func (r *Repo) UpdateDish(ctx context.Context, name string, dish models.Dish) (m
 }
 
 func (r *Repo) ChooseDish(ctx context.Context, name string) error {
-    query := `INSERT INTO SelectedDishes (name) VALUES(@name)`
+    query := `INSERT INTO SelectedDished (name) VALUES(@name)`
     _, err := r.conn.Query(ctx, query)
     if err != nil {
         return err

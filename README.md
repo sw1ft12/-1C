@@ -10,6 +10,8 @@
 
 docker-compose up -d
 
+Выполняем запросы queries.sql
+
 Инициализируем переменные окружение:
 
 export SERVER_ADDRESS=localhost:8080
